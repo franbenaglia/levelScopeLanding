@@ -89,9 +89,18 @@ a:focus-visible,
   text-decoration: none;
 }
 
-.brand svg {
-  width: 34px;
-  height: 34px;
+.brand img {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+}
+
+.app-icon {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 22px;
+  border-radius: 20px;
+  box-shadow: 0 14px 34px -14px rgb(0 0 0 / 0.55);
 }
 
 .site-nav {

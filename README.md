@@ -7,7 +7,8 @@ Página de presentación y política de privacidad de la app LevelScope, publica
 | `index.html` · `es/index.html` | Presentación, en inglés y en español |
 | `privacy.html` · `es/privacy.html` | Política de privacidad, en inglés y en español |
 | `styles.css` | Estilos compartidos (tema claro y oscuro según el sistema) |
-| `img/` | Capturas reales de la app en ambos idiomas |
+| `img/` | Capturas reales de la app en ambos idiomas e ícono en los tamaños que usa el sitio |
+| `LevelScope-Google-Play-*.png` | Originales para la ficha de Google Play: ícono de 512 px y gráfico destacado de 1024×500 |
 
 Es HTML estático: no tiene scripts, fuentes externas, cookies ni analíticas.
 
