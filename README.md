@@ -12,6 +12,10 @@ Página de presentación y política de privacidad de la app LevelScope, publica
 
 Es HTML estático: no tiene scripts, fuentes externas, cookies ni analíticas.
 
+## Descarga del APK
+
+El botón de descarga apunta a `releases/latest/download/LevelScope.apk` de este repositorio: siempre baja el APK de la última versión publicada, sin tocar las páginas. Cada versión nueva se publica como un release cuyo archivo adjunto debe llamarse exactamente `LevelScope.apk` (lo hace `scripts/publicar-release.sh` del repositorio de la app).
+
 ## Para Google Play
 
 - **Política de privacidad:** la URL de `privacy.html` una vez publicado el sitio.

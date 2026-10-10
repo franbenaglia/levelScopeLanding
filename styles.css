@@ -177,6 +177,52 @@ a:focus-visible,
 }
 
 .cta small {
+  flex-basis: 100%;
+}
+
+.cta small a {
+  color: inherit;
+}
+
+.steps {
+  display: grid;
+  gap: 14px;
+  max-width: 44em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+.steps li {
+  position: relative;
+  padding: 2px 0 2px 46px;
+  color: var(--muted);
+  counter-increment: step;
+}
+
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 28px;
+  text-align: center;
+}
+
+.steps strong {
+  color: var(--text);
+}
+
+.cta small {
   color: var(--muted);
   font-size: 0.9rem;
 }
